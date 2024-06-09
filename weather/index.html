@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initialp-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <title>weather</title>
+    </head>
+    <body>
+        <div class="container">
+            <section class="main">
+                <section class="inputs">
+                    <input type="text" placeholder="Enter location..." id="cityinput">
+                    <input type="submit" value="Submit" id="add">
+                    <button placeholder="submit" id="add"></button>
+                </section>
+
+                <section class="display">
+                    <div class="wrapper">
+                        <h2 id="cityoutput"></h2>
+                        <p id="description"></p>
+                        <p id="temp"></p>
+                        <p id="wind"></p>
+                    </div>
+                </section>
+
+            </section>
+        </div>
+        <script src="./node.js"></script>
+    </body>
+</html>    
